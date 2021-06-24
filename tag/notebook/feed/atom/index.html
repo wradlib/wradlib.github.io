@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>wradlib - notebook</title><link href="https://wradlib.org/" rel="alternate"></link><link href="https://wradlib.org/tag/notebook/feed/atom/index.html" rel="self"></link><id>https://wradlib.org/</id><updated>2016-04-26T11:00:00+02:00</updated><subtitle>An Open Source Library for Weather Radar Data Processing</subtitle><entry><title>introducing wradlib jupyter notebooks</title><link href="https://wradlib.org/2016/04/introducing-wradlib-jupyter-notebooks/" rel="alternate"></link><published>2016-04-26T11:00:00+02:00</published><updated>2016-04-26T11:00:00+02:00</updated><author><name>wradlib</name></author><id>tag:wradlib.org,2016-04-26:/2016/04/introducing-wradlib-jupyter-notebooks/</id><summary type="html">&lt;p&gt;At a wradlib code-sprint early April, we thought about ways to make wradlib examples and tutorials more user-friendly, interactive and&amp;nbsp;consistent.&lt;/p&gt;
+&lt;p&gt;Therefore, we decided to harmonise online tutorials and recipes together with the examples from the source distribution. All of them will be transformed as ready-to-use &lt;a href="http://jupyter.org/"&gt;jupyter&lt;/a&gt; notebooks. These notebooks …&lt;/p&gt;</summary><content type="html">&lt;p&gt;At a wradlib code-sprint early April, we thought about ways to make wradlib examples and tutorials more user-friendly, interactive and&amp;nbsp;consistent.&lt;/p&gt;
+&lt;p&gt;Therefore, we decided to harmonise online tutorials and recipes together with the examples from the source distribution. All of them will be transformed as ready-to-use &lt;a href="http://jupyter.org/"&gt;jupyter&lt;/a&gt; notebooks. These notebooks will be distributed along with wradlib, but they will also be rendered as tutorials/examples in the online documentation. In this ongoing process, all examples and tutorials will be reviewed and restructured if&amp;nbsp;needed.&lt;/p&gt;
+&lt;p&gt;As a result, &lt;strong&gt;wradlib users&lt;/strong&gt; will be able to walk through the examples interactively by using &lt;a href="http://jupyter.org/"&gt;jupyter&lt;/a&gt; together with &lt;a href="https://ipython.org/"&gt;IPython&lt;/a&gt;. Interactively means that users can manipulate code and parameters on the fly and immediately evaluate the result. This is perfect for courses, lectures or tutorials. It will help users to better understand wradlib (as compared to just executing a&amp;nbsp;script).&lt;/p&gt;
+&lt;p&gt;Still, for users who just want to run examples as plain Python scripts, we will also include these in the source distribution. Finally, all notebooks will be rendered for the online&amp;nbsp;documentation.&lt;/p&gt;
+&lt;p&gt;For getting an idea about jupyter notebooks within wradlib have a look at these three (rendered)&amp;nbsp;notebooks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://docs.wradlib.org/en/latest/notebooks/radolan.html"&gt;&lt;span class="caps"&gt;RADOLAN&lt;/span&gt; - Radar Products from German Weather Service&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.wradlib.org/en/latest/notebooks/beamblockage/wradlib_beamblock.html"&gt;Beam Blockage Calculation using &lt;span class="caps"&gt;DEM&lt;/span&gt;&lt;/a&gt;&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.wradlib.org/en/latest/notebooks/visualisation/wradlib_overlay.html"&gt;Plot Additional&amp;nbsp;Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are currently in the process of transition. Successively, we will migrate all tutorials and&amp;nbsp;examples.&lt;/p&gt;
+&lt;p&gt;Along the way, we decided to host our example datasets in the dedicated repository &lt;a href="https://github.com/wradlib/wradlib-data"&gt;wradlib-data&lt;/a&gt;. This way, we remove the &amp;#8220;data overhead&amp;#8221; from the source distribution. In order to run the examples locally, users need to carry out two&amp;nbsp;steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;download the data to a local directory,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;point to this directory by creating an environment variable &lt;code&gt;WRADLIB_DATA&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example data is automagically pulled from this location and used in the examples and notebooks. Detailed instructions will be included in the&amp;nbsp;documentation.&lt;/p&gt;
+&lt;p&gt;From a &lt;strong&gt;wradlib developers&amp;#8217;&lt;/strong&gt; perspective, the advantages of the new approach are huge,&amp;nbsp;too:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We only write a notebook &lt;strong&gt;once&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This notebook will serve as both as test code and user example, and it will automatically be rendered for online documentation. This way, all code examples will be consistent and in&amp;nbsp;sync.&lt;/p&gt;
+&lt;p&gt;The new wradlib notebook workflow in more&amp;nbsp;detail:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;document code example or tutorial only once as jupyter&amp;nbsp;notebook&lt;/li&gt;
+&lt;li&gt;convert notebooks for wradlib tests in &lt;span class="caps"&gt;CI&lt;/span&gt; (&lt;a href="https://github.com/wradlib/wradlib/blob/main/scripts/convert_notebooks.sh"&gt;convert_notebooks.sh&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;render notebooks for wradlib docs in &lt;span class="caps"&gt;CI&lt;/span&gt; (&lt;a href="https://github.com/wradlib/wradlib/blob/main/scripts/render_notebooks.sh"&gt;render_notebooks.sh&lt;/a&gt;,
+  &lt;a href="https://github.com/spatialaudio/nbsphinx"&gt;nbsphinx&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have ideas and suggestions about extending the tutorials, notebooks or recipe sections, take your chance and contact&amp;nbsp;us.&lt;/p&gt;</content><category term="wradlib"></category><category term="wradlib"></category><category term="jupyter"></category><category term="notebook"></category><category term="documentation"></category></entry></feed>
