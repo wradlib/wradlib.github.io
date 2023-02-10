@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>  wradlib goes toward python3
+ | wradlib</title>
+
+    <meta name="author" content="wradlib"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+    <link rel="stylesheet" href="https://wradlib.org/theme/css/jquery.mglass.css"/>
+    <link rel="stylesheet" href="https://wradlib.org/theme/css/pygment-solarized-dark.css"/>
+    <link rel="stylesheet" href="https://wradlib.org/theme/css/style.css"/>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
+      <link href='https://fonts.googleapis.com/css?family=Expletus+Sans' rel='stylesheet' type='text/css'>
+
+
+    <link rel="icon" href="https://wradlib.org/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://wradlib.org/favicon.ico" type="image/x-icon">
+
+    <!-- Feeds -->
+      <link href="https://wradlib.org/feed/atom/index.html" type="application/atom+xml" rel="alternate" title="wradlib - Latest posts - Atom Feed"/>
+      <link href="https://wradlib.org/feed/index.html" type="application/rss+xml" rel="alternate" title="wradlib - Latest posts - RSS Feed"/>
+      <link href="https://wradlib.org/category/{slug}/feed/atom/index.html" type="application/atom+xml" rel="alternate" title="wradlib - Category: news - Atom Feed"/>
+      <link href="https://wradlib.org/category/{slug}/feed/index.html" type="application/rss+xml" rel="alternate" title="wradlib - Category: news - RSS Feed"/>
+
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="page-header">
+          <a href="https://wradlib.org" class="avatar-container pull-left">
+            <div class="avatar  animate ">
+              <div class="side"><img src="https://wradlib.github.io/extra/wradlib_logo.svg.png" class="img-responsive"/></div>
+                <div class="side back"><p class="text-center">WRADLIB</p></div>
+            </div>
+          </a>
+        <h1><a href="https://wradlib.org">wradlib</a> <small>An Open Source Library for Weather Radar Data Processing</small></h1>
+      </div>
+
+      <nav class="navbar navbar-default">
+
+        <!-- Hamburger menu for mobile -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#plumage-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://wradlib.org" title="An Open Source Library for Weather Radar Data Processing">wradlib</a>
+        </div>
+
+        <!-- Menus and search forms -->
+        <div class="collapse navbar-collapse" id="plumage-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+<li >
+                <a href="/">Home</a>
+              </li>
+<li >
+                <a href="https://docs.wradlib.org">Documentation</a>
+              </li>
+<li >
+                <a href="/community/">Community</a>
+              </li>
+<li >
+                <a href="/downloads/">Downloads</a>
+              </li>
+<li >
+                <a href="/about/">About</a>
+              </li>
+          </ul>
+
+
+            <form class="navbar-form navbar-right" role="search" action="https://wradlib.org/search.html" onsubmit="return validateForm(this.elements['q'].value);">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" name="q" id="tipue_search_input" class="form-control search-query" placeholder="Search" required />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="fa
+                        fa-search fa-fw"></i></button>
+                  </span>
+                </div>
+              </div>
+            </form>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+
+    <div class="container main">
+
+
+      <div class="row">
+        <div class=" col-md-6   col-md-offset-3 ">
+  <h1>
+    <a href="https://wradlib.org/2016/02/wradlib-python3-compatibility/" rel="bookmark" title="Permalink to wradlib goes toward python3">wradlib goes toward&nbsp;python3</a>
+  </h1>
+        </div>
+      </div>
+
+      <div class="row">
+
+          <div class="col-md-3">
+            
+    <!--<div data-spy="affix" data-offset-top="0">-->
+    <!--</div>-->
+    
+          </div>
+
+        <div class=" col-md-6 " id="content" role="main">
+  
+
+  <div>
+    <p>With <a href="https://github.com/wradlib/wradlib/pull/5">Pull Request #5</a> we made the first step to have wradlib support Python3. All tests are running fine now, so we consider this a straight conversion. Nevertheless, there is an <a href="https://github.com/wradlib/wradlib/issues/8">open issue</a> which gets hold of remaining conversion problems. If you find a bug or issue, please report it&nbsp;there.</p>
+  </div>
+
+    <h3>Related content</h3>
+    <!-- TODO: Use fancier related layout, as in https://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
+    <ul>
+        <li><a href="https://wradlib.org/2016/02/wradlib-at-github/">wradlib moves to&nbsp;github.com</a></li>
+        <li><a href="https://wradlib.org/2023/02/wradlib_xradar/">wradlib moves&nbsp;forward</a></li>
+        <li><a href="https://wradlib.org/2016/04/introducing-wradlib-jupyter-notebooks/">introducing wradlib jupyter&nbsp;notebooks</a></li>
+      </ul>
+
+
+        </div>
+
+          <div class="col-md-3">
+  <div class="well">
+
+    <p><abbr title="2016-02-29T14:45:00+01:00"><i class="fa fa-calendar"></i> Feb. 29, 2016</abbr></p>
+
+      <p><address>
+        <i class="fa fa-user"></i> By
+          <a href="https://wradlib.org/author/wradlib.html" rel="author">wradlib</a>
+      </address></p>
+
+    <hr/>
+
+      <p>
+              <a href="https://wradlib.org/category/news/" rel="tag"
+                  data-toggle="tooltip" class="label label-info"
+                  title="23 articles in this category">news</a>
+            <a href="/tag/wradlib/" data-toggle="tooltip"
+      class="label label-default"
+      title="4 articles with this tag">wradlib</a>
+            <a href="/tag/python/" data-toggle="tooltip"
+      class="label label-default"
+      title="4 articles with this tag">python</a>
+            <a href="/tag/devel/" data-toggle="tooltip"
+      class="label label-default"
+      title="2 articles with this tag">devel</a>
+      </p>
+      <hr/>
+
+      <p>Found a typo ? Want to fix it ?</p>
+      <a class="btn btn-info btn-block" href="https://github.com/wradlib/landing-page/edit/main/content/posts/wradlib-python3-compatibility.md"><i class="fa fa-random fa-white fa-fw"></i> Edit article on GitHub</a>
+      <hr/>
+
+      <nav>
+        <ul class="pager">
+          <li class="previous ">
+            <a  href="https://wradlib.org/2016/02/wradlib-at-github/" title="wradlib moves to github.com"  rel="prev">
+              <span aria-hidden="true">←</span> Older
+            </a>
+          </li>
+          <li class="next ">
+            <a  href="https://wradlib.org/2016/03/wradlib_release_0_8_0/" title="Release 0.8.0"  rel="next">
+              Newer <span aria-hidden="true">→</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+  </div>
+            
+          </div>
+
+      </div>
+
+    </div>
+
+    <!-- TODO: make footer sticky -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-md-2">
+                <h5>Contact</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="mailto:wradlib@wradlib.org">
+      <i class="fa fa-envelope"></i>
+    wradlib
+  </a></li>
+                  <li>  <a href="https://github.com/wradlib">
+      <i class="fa fa-github"></i>
+    Github
+  </a></li>
+                  <li>  <a href="https://www.facebook.com/wradlib/">
+      <i class="fa fa-external-link"></i>
+    Facebook
+  </a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Resources</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://github.com/wradlib/wradlib">
+      <i class="fa fa-github"></i>
+    Repository
+  </a></li>
+                  <li>  <a href="https://docs.wradlib.org">
+      <i class="fa fa-external-link"></i>
+    Documentation
+  </a></li>
+                  <li>  <a href="https://groups.google.com/forum/?fromgroups=#!forum/wradlib-users">
+      <i class="fa fa-external-link"></i>
+    wradlib-user group
+  </a></li>
+                </ul>
+            </div>
+
+          <div class="col-md-2">
+            <h5>Browse content by</h5>
+            <ul class="list-unstyled">
+                <li><a href="https://wradlib.org/categories/index.html"><i class="fa fa-tags"></i> Categories</a></li>
+                <li><a href="https://wradlib.org/archives/index.html"><i class="fa fa-calendar"></i> Dates</a></li>
+                <li><a href="https://wradlib.org/tags/index.html"><i class="fa fa-tag"></i> Tags</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Copyright notice</h5>
+            <p>© Copyright 2016-2023 wradlib.</p>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Disclaimer</h5>
+              <p>All opinions expressed in this site are own personal opinions of the respective wradlib developers and are not endorsed by, nor do they represent the opinions of their previous, current and future employers or any of its affiliates, partners or customers.</p>
+          </div>
+
+          <div class="col-md-2">
+              <h5>Feeds</h5>
+              <ul class="list-unstyled">
+                  <li><small><a href="https://wradlib.org/feed/atom/index.html"><i class="fa fa-rss"></i> Latest posts (Atom)</a></small></li>
+                  <li><small><a href="https://wradlib.org/feed/index.html"><i class="fa fa-rss"></i> Latest posts (RSS)</a></small></li>
+                  <li><small><a href="https://wradlib.org/category/{slug}/feed/atom/index.html"><i class="fa fa-rss"></i> Category: news (Atom)</a></small></li>
+                  <li><small><a href="https://wradlib.org/category/{slug}/feed/index.html"><i class="fa fa-rss"></i> Category: news (RSS)</a></small></li>
+              </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <h5 class="text-right"><a href="#"><i class="fa fa-arrow-up"></i> Back to top</a></h5>
+
+      <div class="container">
+        <div class="row col-md-12 text-muted text-center">
+          Site generated by <a href="https://getpelican.com"> Pelican</a>.<br/>
+          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="https://kevin.deldycke.com">Kevin Deldycke</a>.
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+    <script src="https://wradlib.org/theme/js/jquery.mglass.js"></script>
+    <script src="https://wradlib.org/theme/js/application.js"></script>
+
+  </body>
+</html>
