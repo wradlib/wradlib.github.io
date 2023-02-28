@@ -42,7 +42,7 @@ jobs:
           if [ -f landing-page.zip ]; then
            rm -rf landing-page.zip
           fi
-          zip -r landing_page.zip ./_build/dirhtml
+          zip -r landing-page.zip ./_build/dirhtml
       - name: Upload zipped site artifact
         uses: actions/upload-artifact@v3
         with:
