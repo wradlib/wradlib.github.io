@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>wradlib.org</id>
+  <title>An Open Source Library for Weather Radar Data Processing</title>
+  <updated>2023-02-28T13:08:44.084314+00:00</updated>
+  <link href="wradlib.org"/>
+  <link href="wradlib.org/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
+  <entry>
+    <id>wradlib.org/posts/2016/wradlib-at-github/</id>
+    <title>wradlib moves to github.com</title>
+    <updated>2016-02-29T14:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;After over a year of reflection and thoughts, we finally decided to move from &lt;a class="reference external" href="http://bitbucket.org/wradlib/wradlib"&gt;bitbucket&lt;/a&gt; to &lt;a class="reference external" href="https://github.com/wradlib/wradlib"&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This means also to switch the versioning system from &lt;em&gt;mercurial&lt;/em&gt; to &lt;em&gt;git&lt;/em&gt;. The repository was transferred to git via hg-git. Thus, the commit history is available right from the beginning. The &lt;a class="reference external" href="http://bitbucket.org/wradlib/wradlib"&gt;wradlib repo at bitbucket&lt;/a&gt; will be left available for reference.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2016/wradlib-at-github/" rel="alternate"/>
+    <summary>After over a year of reflection and thoughts, we finally decided to move from bitbucket to github.This means also to switch the versioning system from mercurial to git. The repository was transferred to git via hg-git. Thus, the commit history is available right from the beginning. The wradlib repo at bitbucket will be left available for reference.</summary>
+    <category term="devel" label="devel"/>
+    <category term="workflow" label="workflow"/>
+    <category term="wradlib" label="wradlib"/>
+    <published>2016-02-29T14:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2016/wradlib-python3-compatibility/</id>
+    <title>wradlib goes toward python3</title>
+    <updated>2016-02-29T14:45:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;With &lt;a class="reference external" href="https://github.com/wradlib/wradlib/pull/5"&gt;Pull Request #5&lt;/a&gt; we made the first step to have  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  support Python3. All tests are running fine now, so we consider this a straight conversion. Nevertheless, there is an &lt;a class="reference external" href="https://github.com/wradlib/wradlib/issues/8"&gt;open issue&lt;/a&gt; which gets hold of remaining conversion problems. If you find a bug or issue, please report it there.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2016/wradlib-python3-compatibility/" rel="alternate"/>
+    <summary>With Pull Request #5 we made the first step to have  \omega radlib  support Python3. All tests are running fine now, so we consider this a straight conversion. Nevertheless, there is an open issue which gets hold of remaining conversion problems. If you find a bug or issue, please report it there.</summary>
+    <category term="devel" label="devel"/>
+    <category term="python" label="python"/>
+    <category term="wradlib" label="wradlib"/>
+    <published>2016-02-29T14:45:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2016/wradlib_release_0_8_0/</id>
+    <title>Release 0.8.0</title>
+    <updated>2016-03-10T13:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;As already announced in previous articles (&lt;a class="reference external" href="http://wradlib.org/2016/02/wradlib-at-github/"&gt;#1&lt;/a&gt;,
+&lt;a class="reference external" href="http://wradlib.org/2016/02/wradlib-python3-compatibility/"&gt;#2&lt;/a&gt;), we entirely moved our code development
+from &lt;a class="reference external" href="https://bitbucket.org/wradlib/wradlib"&gt;bitbucket&lt;/a&gt; to &lt;a class="reference external" href="https://github.com/wradlib"&gt;github&lt;/a&gt;,
+and applied a major code revision to make  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  compatible with both Python 2.7 and 3.5. The tremendous
+efforts to achieve this have been spearheaded by Kai Muehlbauer (University of Bonn). Thanks also to Jonathan J. Helmus from Argonne National Laboratory for valuable advice in the transition period.&lt;/p&gt;
+&lt;p&gt;Please understand that the &lt;a class="reference external" href="https://bitbucket.org/wradlib/wradlib"&gt;bitbucket repository&lt;/a&gt; will no longer be updated, and only hosted as legacy code.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2016/wradlib_release_0_8_0/" rel="alternate"/>
+    <summary>As already announced in previous articles (#1,
+#2), we entirely moved our code development
+from bitbucket to github,
+and applied a major code revision to make  \omega radlib  compatible with both Python 2.7 and 3.5. The tremendous
+efforts to achieve this have been spearheaded by Kai Muehlbauer (University of Bonn). Thanks also to Jonathan J. Helmus from Argonne National Laboratory for valuable advice in the transition period.Please understand that the bitbucket repository will no longer be updated, and only hosted as legacy code.</summary>
+    <category term="github" label="github"/>
+    <category term="python2" label="python2"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2016-03-10T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2016/treeview-with-traits/</id>
+    <title>Simple Treeview with traits</title>
+    <updated>2016-03-11T10:00:00+00:00</updated>
+    <author>
+      <name>kmuehlbauer</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Since we are continuously receiving inquiries regarding the work with Rainbow5(TM) radar data, I will present here a nice way of visualizing the dictionary representation of an arbitrary Rainbow5 file.&lt;/p&gt;
+&lt;p&gt;This code snippet makes use of the python packages traits and traitsui.&lt;/p&gt;
+&lt;img alt="Example view" src="../_images/simple-treeview-with-traits.png" /&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2016/treeview-with-traits/" rel="alternate"/>
+    <summary>Since we are continuously receiving inquiries regarding the work with Rainbow5(TM) radar data, I will present here a nice way of visualizing the dictionary representation of an arbitrary Rainbow5 file.This code snippet makes use of the python packages traits and traitsui.Example view</summary>
+    <category term="python" label="python"/>
+    <category term="rainbow5" label="rainbow5"/>
+    <category term="treeview" label="treeview"/>
+    <published>2016-03-11T10:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2016/easy-install-using-conda-forge/</id>
+    <title>easy install using conda-forge</title>
+    <updated>2016-03-17T15:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;With the help of an outstanding community effort named &lt;a class="reference external" href="https://conda-forge.github.io/"&gt;conda-forge&lt;/a&gt;,
+wradlib can now be more conveniently installed on &lt;em&gt;&lt;strong&gt;linux&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;windows&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;osx&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Until now, installing  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  and its dependencies could be tricky, with each OS having its own issues. On Windows, we so far recommended
+to satisfy all depencies via &lt;a class="reference external" href="https://python-xy.github.io/"&gt;Python(x,y)&lt;/a&gt;. This was convenient; however, it limited users to Python 2.7,
+and, more importantly, to 32-bit Python. This was a serious drawback particularly for memory-intensive applications.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2016/easy-install-using-conda-forge/" rel="alternate"/>
+    <summary>With the help of an outstanding community effort named conda-forge,
+wradlib can now be more conveniently installed on linux, windows and osx.Until now, installing  \omega radlib  and its dependencies could be tricky, with each OS having its own issues. On Windows, we so far recommended
+to satisfy all depencies via Python(x,y). This was convenient; however, it limited users to Python 2.7,
+and, more importantly, to 32-bit Python. This was a serious drawback particularly for memory-intensive applications.</summary>
+    <category term="conda" label="conda"/>
+    <category term="linux" label="linux"/>
+    <category term="osx" label="osx"/>
+    <category term="python" label="python"/>
+    <category term="windows" label="windows"/>
+    <published>2016-03-17T15:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2016/introducing-wradlib-jupyter-notebooks/</id>
+    <title>introducing  {{wradlib}}  jupyter notebooks</title>
+    <updated>2016-04-26T11:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;At a  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  code-sprint early April, we thought about ways to make  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  examples and tutorials more user-friendly, interactive and consistent.&lt;/p&gt;
+&lt;p&gt;Therefore, we decided to harmonise online tutorials and recipes together with the examples from the source distribution. All of them will be transformed as ready-to-use &lt;a class="reference external" href="http://jupyter.org/"&gt;jupyter&lt;/a&gt; notebooks. These notebooks will be distributed along with wradlib, but they will also be rendered as tutorials/examples in the online documentation. In this ongoing process, all examples and tutorials will be reviewed and restructured if needed.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2016/introducing-wradlib-jupyter-notebooks/" rel="alternate"/>
+    <summary>At a  \omega radlib  code-sprint early April, we thought about ways to make  \omega radlib  examples and tutorials more user-friendly, interactive and consistent.Therefore, we decided to harmonise online tutorials and recipes together with the examples from the source distribution. All of them will be transformed as ready-to-use jupyter notebooks. These notebooks will be distributed along with wradlib, but they will also be rendered as tutorials/examples in the online documentation. In this ongoing process, all examples and tutorials will be reviewed and restructured if needed.</summary>
+    <category term="documentation" label="documentation"/>
+    <category term="jupyter" label="jupyter"/>
+    <category term="notebook" label="notebook"/>
+    <category term="wradlib" label="wradlib"/>
+    <published>2016-04-26T11:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2016/wradlib_release_0_9_0/</id>
+    <title>Release 0.9.0</title>
+    <updated>2016-08-31T13:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;With this post, we announce the release of  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  0.9.0. It finalizes our transition
+from example Python scripts to jupyter notebooks (as already announced in a
+&lt;a class="reference external" href="http://wradlib.org/2016/04/introducing-wradlib-jupyter-notebooks/"&gt;previous post&lt;/a&gt;). As a result,
+the documentation pages have become more consistent, and the handling of examples and tutorials
+more convenient and interactive. We hope you’ll agree!&lt;/p&gt;
+&lt;p&gt;As a consequence, the previous doc sections “Tutorials” and “Recipes” have been replaced by one single
+section &lt;a class="reference external" href="http://docs.wradlib.org/en/latest/notebooks.html"&gt;Tutorials and Examples&lt;/a&gt;.
+The pages in that section were automatically built from jupyter
+(IPython) notebooks. These notebooks are distributed with the &lt;a class="reference external" href="https://pypi.python.org/pypi/wradlib"&gt;new release&lt;/a&gt;,
+and you can use them to interactively browse through our tutorials and examples. You can always download the latest notebooks
+from the &lt;a class="reference external" href="https://github.com/wradlib/wradlib/tree/main/notebooks"&gt;wradlib repository&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2016/wradlib_release_0_9_0/" rel="alternate"/>
+    <summary>With this post, we announce the release of  \omega radlib  0.9.0. It finalizes our transition
+from example Python scripts to jupyter notebooks (as already announced in a
+previous post). As a result,
+the documentation pages have become more consistent, and the handling of examples and tutorials
+more convenient and interactive. We hope you’ll agree!As a consequence, the previous doc sections “Tutorials” and “Recipes” have been replaced by one single
+section Tutorials and Examples.
+The pages in that section were automatically built from jupyter
+(IPython) notebooks. These notebooks are distributed with the new release,
+and you can use them to interactively browse through our tutorials and examples. You can always download the latest notebooks
+from the wradlib repository.</summary>
+    <category term="github" label="github"/>
+    <category term="python2" label="python2"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2016-08-31T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2017/wradlib_release_0_10_0/</id>
+    <title>Release 0.10.0</title>
+    <updated>2017-04-10T16:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We are happy to announce the release of  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  0.10.0.&lt;/p&gt;
+&lt;p&gt;Highlight of this release is the implementation of matching of GPM/TRMM-platforms
+with ground radar observations in 3D. A step-by-step guide is available as
+&lt;a class="reference external" href="http://wradlib.org/wradlib-docs/0.10.0/notebooks/match3d/wradlib_match_workflow.html"&gt;jupyter notebook&lt;/a&gt;. Also the  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  raster handling
+has been improved considerably with &lt;a class="reference external" href="https://github.com/wradlib/wradlib/pull/137"&gt;PR#137&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2017/wradlib_release_0_10_0/" rel="alternate"/>
+    <summary>We are happy to announce the release of  \omega radlib  0.10.0.Highlight of this release is the implementation of matching of GPM/TRMM-platforms
+with ground radar observations in 3D. A step-by-step guide is available as
+jupyter notebook. Also the  \omega radlib  raster handling
+has been improved considerably with PR#137.</summary>
+    <category term="github" label="github"/>
+    <category term="python2" label="python2"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2017-04-10T16:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2017/wradlib_release_0_10_1/</id>
+    <title>Release 0.10.1</title>
+    <updated>2017-06-23T16:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We are happy to announce the release of  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  0.10.1.&lt;/p&gt;
+&lt;p&gt;This release is mainly a bug-fix release to make  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  work with the latest numpy release 1.13.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2017/wradlib_release_0_10_1/" rel="alternate"/>
+    <summary>We are happy to announce the release of  \omega radlib  0.10.1.This release is mainly a bug-fix release to make  \omega radlib  work with the latest numpy release 1.13.</summary>
+    <category term="github" label="github"/>
+    <category term="python2" label="python2"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2017-06-23T16:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2017/introducing-wradlib-cheat-sheets/</id>
+    <title>Introducing  {{wradlib}}  Cheat-Sheets</title>
+    <updated>2017-09-21T09:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Today we are glad to announce the start of a series of &lt;strong&gt;Cheat-Sheets&lt;/strong&gt; covering all aspects of wradlib. The first &lt;strong&gt;Cheat-Sheet&lt;/strong&gt; is &lt;em&gt;&lt;strong&gt;Wradlib Getting Started&lt;/strong&gt;&lt;/em&gt; which is available via the new &lt;a class="reference internal" href="../pages/downloads/"&gt;&lt;span class="doc std std-doc"&gt;Downloads-Section&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cheat-Sheets&lt;/strong&gt; are very well established not only within the Python-Community. Who of us has not used the &lt;a class="reference external" href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf"&gt;GitHub Git Cheat Sheet&lt;/a&gt; or the &lt;a class="reference external" href="https://conda.io/docs/_downloads/conda-cheatsheet.pdf"&gt;CONDA Cheat Sheet&lt;/a&gt; to get &lt;strong&gt;git&lt;/strong&gt; and &lt;strong&gt;conda&lt;/strong&gt; running?&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2017/introducing-wradlib-cheat-sheets/" rel="alternate"/>
+    <summary>Today we are glad to announce the start of a series of Cheat-Sheets covering all aspects of wradlib. The first Cheat-Sheet is Wradlib Getting Started which is available via the new Downloads-Section.Cheat-Sheets are very well established not only within the Python-Community. Who of us has not used the GitHub Git Cheat Sheet or the CONDA Cheat Sheet to get git and conda running?</summary>
+    <category term="docs" label="docs"/>
+    <category term="pdf" label="pdf"/>
+    <published>2017-09-21T09:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2017/wradlib_release_0_11_0/</id>
+    <title>Release 0.11.0</title>
+    <updated>2017-11-15T16:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We are happy to announce the release of  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  0.11.0.&lt;/p&gt;
+&lt;p&gt;It introduces our first shot at reading IRIS (Sigmet) data - a feature that has been requested by quite a number users. Learn more about io.read_iris, and see it at work &lt;a class="reference external" href="http://docs.wradlib.org/en/latest/notebooks/fileio/wradlib_radar_formats.html#Vaisala-Sigmet-IRIS"&gt;here&lt;/a&gt;. We are looking forward to your feedback!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2017/wradlib_release_0_11_0/" rel="alternate"/>
+    <summary>We are happy to announce the release of  \omega radlib  0.11.0.It introduces our first shot at reading IRIS (Sigmet) data - a feature that has been requested by quite a number users. Learn more about io.read_iris, and see it at work here. We are looking forward to your feedback!</summary>
+    <category term="github" label="github"/>
+    <category term="python2" label="python2"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2017-11-15T16:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2018/wradlib_release_1_0_0/</id>
+    <title>Release 1.0.0</title>
+    <updated>2018-04-01T07:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.0.0 of wradlib.&lt;/p&gt;
+&lt;p&gt;As some of you might be aware, version 1.x is generally considered as a major milestone, indicating that the software has all major features, and is considered reliable enough for general release.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2018/wradlib_release_1_0_0/" rel="alternate"/>
+    <summary>We have now released version 1.0.0 of wradlib.As some of you might be aware, version 1.x is generally considered as a major milestone, indicating that the software has all major features, and is considered reliable enough for general release.</summary>
+    <category term="github" label="github"/>
+    <category term="python2" label="python2"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2018-04-01T07:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2018/wradlib_release_1_2_0/</id>
+    <title>Release 1.2</title>
+    <updated>2018-10-31T08:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.2 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains many bugfixes as well as improvements and enhancements. Most additions were pulled in within &lt;a class="reference external" href="https://hacktoberfest.digitalocean.com/"&gt;Hacktoberfest&lt;/a&gt;, the month-long celebration of open source software. Although this years Hacktoberfest is over, we encourage every  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  user to join the party and envision the Hacktoberfest’s 3 main mottos:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2018/wradlib_release_1_2_0/" rel="alternate"/>
+    <summary>We have now released version 1.2 of wradlib.This version contains many bugfixes as well as improvements and enhancements. Most additions were pulled in within Hacktoberfest, the month-long celebration of open source software. Although this years Hacktoberfest is over, we encourage every  \omega radlib  user to join the party and envision the Hacktoberfest’s 3 main mottos:</summary>
+    <category term="github" label="github"/>
+    <category term="python2" label="python2"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2018-10-31T08:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2019/xarray_cfradial2_odimh5/</id>
+    <title>Utilizing xarray for CfRadial - ODIM_H5 interoperability</title>
+    <updated>2019-02-15T11:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have just added a new feature for CfRadial2 - ODIM_H5 interoperability to wradlib.&lt;/p&gt;
+&lt;p&gt;wradlib is now able to read data from netcdf-based CfRadial1, CfRadial2 and hdf5-based ODIM_H5 (and other hdf5-flavours (GAMIC)).&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2019/xarray_cfradial2_odimh5/" rel="alternate"/>
+    <summary>We have just added a new feature for CfRadial2 - ODIM_H5 interoperability to wradlib.wradlib is now able to read data from netcdf-based CfRadial1, CfRadial2 and hdf5-based ODIM_H5 (and other hdf5-flavours (GAMIC)).</summary>
+    <category term="cfradial2" label="cfradial2"/>
+    <category term="odim" label="odim"/>
+    <category term="python" label="python"/>
+    <published>2019-02-15T11:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2019/wradlib_release_1_3_0/</id>
+    <title>Release 1.3</title>
+    <updated>2019-03-29T08:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.3 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains more improvements and enhancements than bugfixes.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2019/wradlib_release_1_3_0/" rel="alternate"/>
+    <summary>We have now released version 1.3 of wradlib.This version contains more improvements and enhancements than bugfixes.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2019-03-29T08:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2019/wradlib_release_1_4_0/</id>
+    <title>Release 1.4</title>
+    <updated>2019-05-24T14:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.4 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains several bugfixes and three enhancements.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2019/wradlib_release_1_4_0/" rel="alternate"/>
+    <summary>We have now released version 1.4 of wradlib.This version contains several bugfixes and three enhancements.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2019-05-24T14:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2019/wradlib_release_1_5_0/</id>
+    <title>Release 1.5</title>
+    <updated>2019-08-02T14:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.5 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains several bugfixes and enhancements.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2019/wradlib_release_1_5_0/" rel="alternate"/>
+    <summary>We have now released version 1.5 of wradlib.This version contains several bugfixes and enhancements.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2019-08-02T14:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2020/wradlib_release_1_6_0/</id>
+    <title>Release 1.6</title>
+    <updated>2020-03-12T10:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.6 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains several bugfixes and enhancements.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2020/wradlib_release_1_6_0/" rel="alternate"/>
+    <summary>We have now released version 1.6 of wradlib.This version contains several bugfixes and enhancements.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2020-03-12T10:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2020/wradlib_release_1_7_0/</id>
+    <title>Release 1.7</title>
+    <updated>2020-06-12T08:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.7 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains several bugfixes and enhancements.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2020/wradlib_release_1_7_0/" rel="alternate"/>
+    <summary>We have now released version 1.7 of wradlib.This version contains several bugfixes and enhancements.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2020-06-12T08:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2020/wradlib_release_1_8_0/</id>
+    <title>Release 1.8</title>
+    <updated>2020-09-03T11:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.8 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains several bugfixes and enhancements. We’ve also done a lot of maintenance with regard to Continuous Integration as well as handled upstream deprecations.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2020/wradlib_release_1_8_0/" rel="alternate"/>
+    <summary>We have now released version 1.8 of wradlib.This version contains several bugfixes and enhancements. We’ve also done a lot of maintenance with regard to Continuous Integration as well as handled upstream deprecations.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2020-09-03T11:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2020/wradlib_release_1_9_0/</id>
+    <title>Release 1.9</title>
+    <updated>2020-11-26T10:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.9 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains several bugfixes and some enhancements. For our Continuous Integration we’ve moved to &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;micromamba&lt;/span&gt;&lt;/code&gt; which speeds up creation of Python environments.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2020/wradlib_release_1_9_0/" rel="alternate"/>
+    <summary>We have now released version 1.9 of wradlib.This version contains several bugfixes and some enhancements. For our Continuous Integration we’ve moved to micromamba which speeds up creation of Python environments.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2020-11-26T10:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2021/wradlib_release_1_10_0/</id>
+    <title>Release 1.10</title>
+    <updated>2021-06-01T13:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.10 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains several enhancements and some bugfixes. For our Continuous Integration we’ve moved to GitHub Actions for all of our production repositories.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2021/wradlib_release_1_10_0/" rel="alternate"/>
+    <summary>We have now released version 1.10 of wradlib.This version contains several enhancements and some bugfixes. For our Continuous Integration we’ve moved to GitHub Actions for all of our production repositories.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2021-06-01T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2021/wradlib_release_1_11_0/</id>
+    <title>Release 1.11</title>
+    <updated>2021-09-02T13:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.11 of wradlib.&lt;/p&gt;
+&lt;p&gt;This version contains two enhancements and a whole bunch of bugfixes. We changed our branch naming to &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;main&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2021/wradlib_release_1_11_0/" rel="alternate"/>
+    <summary>We have now released version 1.11 of wradlib.This version contains two enhancements and a whole bunch of bugfixes. We changed our branch naming to main.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2021-09-02T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2021/wradlib_release_1_13_0/</id>
+    <title>Release 1.13</title>
+    <updated>2021-11-14T11:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.13 of wradlib.&lt;/p&gt;
+&lt;p&gt;After missing &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;requirements_optional.txt&lt;/span&gt;&lt;/code&gt; in the source distribution which has been uploaded to &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;PyPI&lt;/span&gt;&lt;/code&gt; as &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;1.12.0&lt;/span&gt;&lt;/code&gt;, we had to remove this version from &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;PyPI&lt;/span&gt;&lt;/code&gt; again. The problem was that the installation from the source distribution was not possible without this file.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2021/wradlib_release_1_13_0/" rel="alternate"/>
+    <summary>We have now released version 1.13 of wradlib.After missing requirements_optional.txt in the source distribution which has been uploaded to PyPI as 1.12.0, we had to remove this version from PyPI again. The problem was that the installation from the source distribution was not possible without this file.</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2021-11-14T11:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2022/wradlib_release_1_14_0/</id>
+    <title>Release 1.14</title>
+    <updated>2022-03-18T14:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.14 of wradlib.&lt;/p&gt;
+&lt;p&gt;Now, these are the most important changes:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2022/wradlib_release_1_14_0/" rel="alternate"/>
+    <summary>We have now released version 1.14 of wradlib.Now, these are the most important changes:</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2022-03-18T14:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2022/wradlib_release_1_15_0/</id>
+    <title>Release 1.15</title>
+    <updated>2022-04-11T08:00:00+00:00</updated>
+    <author>
+      <name>wradlib</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We have now released version 1.15 of wradlib.&lt;/p&gt;
+&lt;p&gt;This release only has one enhancement:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2022/wradlib_release_1_15_0/" rel="alternate"/>
+    <summary>We have now released version 1.15 of wradlib.This release only has one enhancement:</summary>
+    <category term="github" label="github"/>
+    <category term="python3" label="python3"/>
+    <category term="releases" label="releases"/>
+    <published>2022-04-11T08:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>wradlib.org/posts/2023/wradlib_xradar/</id>
+    <title>wradlib moves forward</title>
+    <updated>2023-02-10T20:00:00+00:00</updated>
+    <author>
+      <name>kmuehlbauer</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;As you probably all know by now,  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  is moving forward now and in the near future. There are several aspects which
+are laid out in this blog post.&lt;/p&gt;
+&lt;p&gt;In the upcoming version 1.19  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  will use &lt;a class="reference external" href="https://docs.openradarscience.org/projects/xradar"&gt;xradar&lt;/a&gt; for reading/writing
+radar data. For this to happen, I’ve ported all related code from  &lt;span class="math notranslate nohighlight"&gt;\(\omega radlib\)&lt;/span&gt;  to xradar. Xradar, a package dedicated to read
+and write radar data based on xarray structures, was launched in late August 2022, on initiative of Max Grover and me.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="wradlib.org/posts/2023/wradlib_xradar/" rel="alternate"/>
+    <summary>As you probably all know by now,  \omega radlib  is moving forward now and in the near future. There are several aspects which
+are laid out in this blog post.In the upcoming version 1.19  \omega radlib  will use xradar for reading/writing
+radar data. For this to happen, I’ve ported all related code from  \omega radlib  to xradar. Xradar, a package dedicated to read
+and write radar data based on xarray structures, was launched in late August 2022, on initiative of Max Grover and me.</summary>
+    <category term="news" label="news"/>
+    <category term="wradlib" label="wradlib"/>
+    <category term="xradar" label="xradar"/>
+    <published>2023-02-10T20:00:00+00:00</published>
+  </entry>
+</feed>
