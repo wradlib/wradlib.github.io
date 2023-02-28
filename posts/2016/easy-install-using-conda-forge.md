@@ -10,20 +10,20 @@ tags: conda, windows, osx, linux, python
 With the help of an outstanding community effort named [conda-forge](https://conda-forge.github.io/),
 wradlib can now be more conveniently installed on _**linux**_, _**windows**_ and _**osx**_.
 
-Until now, installing wradlib and its dependencies could be tricky, with each OS having its own issues. On Windows, we so far recommended
+Until now, installing  {{wradlib}}  and its dependencies could be tricky, with each OS having its own issues. On Windows, we so far recommended
 to satisfy all depencies via [Python(x,y)](https://python-xy.github.io/). This was convenient; however, it limited users to Python 2.7,
 and, more importantly, to 32-bit Python. This was a serious drawback particularly for memory-intensive applications.
 
 With this post, we present a new installation approach that is harmonised across platforms. Using
-[conda-forge/wradlib-feedstock](https://github.com/conda-forge/wradlib-feedstock), we provide installable wradlib packages
+[conda-forge/wradlib-feedstock](https://github.com/conda-forge/wradlib-feedstock), we provide installable  {{wradlib}}  packages
 for all major OS (accounting for different python and numpy versions, and offering 32-bit builts for Windows, if desired).
 All builts are tested and uploaded to the [conda-forge channel](https://anaconda.org/conda-forge/wradlib).
 
-The default-conda channel provides many wradlib dependencies out of the box, but not all.
+The default-conda channel provides many  {{wradlib}}  dependencies out of the box, but not all.
 Hence, we also contributed to the [conda-forge/gdal-feedstock](https://github.com/conda-forge/gdal-feedstock)
 making it the first feedstock serving two different package versions (gdal 1.11.4 and 2.0.2).
 
-As a result, wradlib can now be conveniently installed using the [conda package manager](http://conda.pydata.org/docs/intro.html).
+As a result,  {{wradlib}}  can now be conveniently installed using the [conda package manager](http://conda.pydata.org/docs/intro.html).
 Windows users should be aware, though, that this approach is **not** compatible with Python(x,y). So you need to make a decision.
 
 So this is the basic walk through:
@@ -42,7 +42,7 @@ So this is the basic walk through:
         :::bash
         $ conda config --add channels conda-forge
 
-4. Activate wradlib environment
+4. Activate  {{wradlib}}  environment
 
     * Linux
 
@@ -54,7 +54,7 @@ So this is the basic walk through:
             :::bash
             > activate wradlib
 
-5. Install wradlib (and dependencies)
+5. Install  {{wradlib}}  (and dependencies)
 
         :::bash
         (wradlib) $ conda install wradlib
@@ -78,7 +78,7 @@ So this is the basic walk through:
 
 * * *
 
-We hope that this new approach will make the installation of wradlib more convenient, and, as a result, enhance its usability
+We hope that this new approach will make the installation of  {{wradlib}}  more convenient, and, as a result, enhance its usability
 on all major platforms - thanks to [Anaconda](https://www.continuum.io/why-anaconda) from Continuum(R) and the conda-forge
 community effort.
 

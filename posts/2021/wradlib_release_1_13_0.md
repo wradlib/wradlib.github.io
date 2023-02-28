@@ -12,7 +12,7 @@ We have now released version 1.13 of wradlib.
 
 After missing `requirements_optional.txt` in the source distribution which has been uploaded to ``PyPI`` as `1.12.0`, we had to remove this version from ``PyPI`` again. The problem was that the installation from the source distribution was not possible without this file. 
 
-Anyway, this was fixed and wradlib `1.13.0` was released shortly after. This version contains two enhancements and a whole bunch of bugfixes. Some dependencies have been made optional as well. The hard dependencies of wradlib are codewise: 
+Anyway, this was fixed and  {{wradlib}}  `1.13.0` was released shortly after. This version contains two enhancements and a whole bunch of bugfixes. Some dependencies have been made optional as well. The hard dependencies of  {{wradlib}}  are codewise: 
 
 - deprecation
 - matplotlib
@@ -20,12 +20,12 @@ Anyway, this was fixed and wradlib `1.13.0` was released shortly after. This ver
 - scipy
 - xarray>=0.17.0  
 
-This has no affect on current versions `< 2.0` doing normal install or by installing via conda-forge. But you can already test this by installing wradlib using pip:
+This has no affect on current versions `< 2.0` doing normal install or by installing via conda-forge. But you can already test this by installing  {{wradlib}}  using pip:
 
     :::bash
     $ python -m pip install wradlib==1.13.0 --no-deps
 
-Or from inside the latest cloned/extracted wradlib github-main:
+Or from inside the latest cloned/extracted  {{wradlib}}  github-main:
 
     :::bash
     $ python -m pip install . --no-deps

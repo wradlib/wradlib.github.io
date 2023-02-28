@@ -12,7 +12,7 @@ We have now released version 1.0.0 of wradlib.
 
 As some of you might be aware, version 1.x is generally considered as a major milestone, indicating that the software has all major features, and is considered reliable enough for general release.
 
-The first commit to wradlib is now almost seven years ago. During these years, a lot of changes have been introduced in terms of algorithms, but also in terms of documentation and maintenance workflows. Yet, the API has become more and more stable, so we decided that wradlib is now mature enough for switching to a 1.x development line.
+The first commit to  {{wradlib}}  is now almost seven years ago. During these years, a lot of changes have been introduced in terms of algorithms, but also in terms of documentation and maintenance workflows. Yet, the API has become more and more stable, so we decided that  {{wradlib}}  is now mature enough for switching to a 1.x development line.
 
 At the same time, we wanted to use that opportunity to address a couple of issues that we considered important from a developer's perspective. Addressing those issues will most likely break existing code and workflows. Yet, *this* is the time to do it, and doing it is vital to guarantee sustainable, efficient and reliable code development in the future. We cordially invite you to come along with us, and make use of version 1.0.0, even if it means that you might have to refactor your code. If you want to benefit from future improvements, this is the way to go! Limited resources will not allow us to further support the 0.x development line - from today on, it'll be legacy.
 
@@ -29,7 +29,7 @@ Georeferencing has become more precise and transparent, making more use of gdal'
 
 # Revise repository structure and CI workflows
 In order to make developing and releasing more efficient, we fundamentally revised the repository structure: 
-- the actual wradlib code remains under [http://github.com/wradlib/wradlib](http://github.com/wradlib/wradlib)
+- the actual  {{wradlib}}  code remains under [http://github.com/wradlib/wradlib](http://github.com/wradlib/wradlib)
 - the notebooks have been moved to [https://github.com/wradlib/wradlib-notebooks](https://github.com/wradlib/wradlib-notebooks)
 
 # Documentation pages

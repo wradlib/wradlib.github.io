@@ -21,7 +21,7 @@ With version 1.3 we dropped support for Python 2.7. The package is intensively t
 Contains functions to read and write CfRadial1 and upcoming CfRadial2 standard as well as ODIM_H5 standard radar data files. Makes intensive use of [xarray package](https://docs.xarray.dev/en/stable/), see also our [blog-post here](https://wradlib.org/2019/02/xarray_cfradial2_odimh5/). Examples are available in the [wradlib documentation](https://docs.wradlib.org/en/stable/notebooks/fileio/wradlib_xarray_radial_odim.html)
 
 - **xarray powered plotting**
-The plotting routines have been completely revised and build upon wradlib xarray DataArray Accessor. Helper functions for DataArray creation are implemented as well. [Extensive tutorials](https://docs.wradlib.org/en/stable/plotting.html) including map-making using cartopy are available too.
+The plotting routines have been completely revised and build upon  {{wradlib}}  xarray DataArray Accessor. Helper functions for DataArray creation are implemented as well. [Extensive tutorials](https://docs.wradlib.org/en/stable/plotting.html) including map-making using cartopy are available too.
 
 - **Revised Documentation**
 The documentation structure has been reordered for better user experience.

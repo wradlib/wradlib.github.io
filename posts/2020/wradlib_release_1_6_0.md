@@ -34,7 +34,7 @@ Now, these are the most important changes:
 
 - **Bugfixes**
     
-    The wradlib community found several bugs which are now fixed.   
+    The  {{wradlib}}  community found several bugs which are now fixed.   
 
 We like to thank all our contributors and all community members who ask questions and provide feedback on the various channels. Your contributions are very much appreciated. 
 
