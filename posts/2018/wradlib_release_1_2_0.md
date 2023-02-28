@@ -10,7 +10,7 @@ tags: releases, github, python2, python3
 
 We have now released version 1.2 of wradlib.
 
-This version contains many bugfixes as well as improvements and enhancements. Most additions were pulled in within [Hacktoberfest](https://hacktoberfest.digitalocean.com/), the month-long celebration of open source software. Although this years Hacktoberfest is over, we encourage every wradlib user to join the party and envision the Hacktoberfest's 3 main mottos:
+This version contains many bugfixes as well as improvements and enhancements. Most additions were pulled in within [Hacktoberfest](https://hacktoberfest.digitalocean.com/), the month-long celebration of open source software. Although this years Hacktoberfest is over, we encourage every  {{wradlib}}  user to join the party and envision the Hacktoberfest's 3 main mottos:
 
 - ***Everyone is welcome!***
 - ***Quantity is fun, Quality is key***

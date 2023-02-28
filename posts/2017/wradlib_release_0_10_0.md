@@ -8,16 +8,16 @@ tags: releases, github, python2, python3
 
 # Release 0.10.0
 
-We are happy to announce the release of wradlib 0.10.0.
+We are happy to announce the release of  {{wradlib}}  0.10.0.
 
 ## Highlights
 
 Highlight of this release is the implementation of matching of GPM/TRMM-platforms
 with ground radar observations in 3D. A step-by-step guide is available as
-[jupyter notebook](http://wradlib.org/wradlib-docs/0.10.0/notebooks/match3d/wradlib_match_workflow.html). Also the wradlib raster handling
+[jupyter notebook](http://wradlib.org/wradlib-docs/0.10.0/notebooks/match3d/wradlib_match_workflow.html). Also the  {{wradlib}}  raster handling
 has been improved considerably with [PR#137](https://github.com/wradlib/wradlib/pull/137).
 
-## Further changes in wradlib 0.10.0
+## Further changes in  {{wradlib}}  0.10.0
 
 There are also a couple of community enhancements and other improvements and fixes.
 

@@ -143,8 +143,12 @@ post_auto_excerpt = 2
 panels_add_bootstrap_css = False
 
 # MyST config
-myst_enable_extensions = ['amsmath', 'colon_fence', 'deflist', 'html_image', 'dollarmath']
+myst_enable_extensions = ['amsmath', 'colon_fence', 'deflist', 'html_image', 'dollarmath', 'substitution',]
 myst_url_schemes = ['http', 'https', 'mailto']
+
+myst_substitutions = {
+    "wradlib": "$\\omega radlib$",
+}
 
 # Temporarily stored as off until we fix it
 nb_execution_mode = 'off'

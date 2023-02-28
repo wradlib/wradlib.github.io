@@ -20,7 +20,7 @@ Now, these are the most important changes:
     In this example we show how our implementation combines all 20 files (two moments, 10 sweeps) into one xarray powered structure, which can be exported to single CfRadial2 or ODIM_H5 volume files.
     For exploitung `dask` for lazy/parallelized processing the `chunk` keyword can be used to transparently use dask with xarray.
     
-    We encourage all users to dive into Xarray based processing as wradlib will continuously update it's codebase utilizing Xarray based processing.
+    We encourage all users to dive into Xarray based processing as  {{wradlib}}  will continuously update it's codebase utilizing Xarray based processing.
 
 - **xarray wrapper for RADOLAN data**
     
@@ -32,7 +32,7 @@ Now, these are the most important changes:
 
 - **Bugfixes**
     
-    The wradlib community found several bugs which are now fixed (multidimensional calling in `gradient_along_axis`, missing destination projection in destination dataset in `reproject_raster_dataset` and several more).   
+    The  {{wradlib}}  community found several bugs which are now fixed (multidimensional calling in `gradient_along_axis`, missing destination projection in destination dataset in `reproject_raster_dataset` and several more).   
 
 We like to thank all our contributors and all community members who ask questions and provide feedback on the various channels. Your contributions very much appreciated. 
 

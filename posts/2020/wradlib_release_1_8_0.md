@@ -18,7 +18,7 @@ Now, these are the most important changes:
 
 - add WN product size (1200,1000) to radolan grid, add test for correct reference point (lower left)
 - add `WN` and `YW` products to radolan to xarray converter
-- add `wradlib.show_versions()` to easily get state of wradlib and it's dependencies (thanks to [xarray](http://xarray.pydata.org/en/stable/))  
+- add `wradlib.show_versions()` to easily get state of  {{wradlib}}  and it's dependencies (thanks to [xarray](http://xarray.pydata.org/en/stable/))  
 
 **Maintenance**
 
