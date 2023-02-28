@@ -34,6 +34,20 @@ jobs:
       - name: Build the site
         run: |
           make dirhtml
+      # Zip and Upload artifact
+      - name: Zip the site
+        run: |
+          set -x
+          set -e
+          if [ -f landing-page.zip ]; then
+           rm -rf landing-page.zip
+          fi
+          zip -r landing_page.zip ./_build/dirhtml
+      - name: Upload zipped site artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: landing-page-zip-${{github.event.number}}
+          path: ./landing-page.zip
       # Push the book's HTML to github-pages
       - name: Deploy GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
