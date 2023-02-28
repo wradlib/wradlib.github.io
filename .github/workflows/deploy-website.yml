@@ -1,0 +1,62 @@
+name: deploy-website
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+# This job installs dependencies, build the website, and pushes it to `gh-pages`
+jobs:
+  deploy-website:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+    if: github.repository == 'wradlib/wradlib.github.io'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Install micromamba environment
+        uses: mamba-org/provision-with-micromamba@main
+        with:
+          environment-name: wradlib-dev
+          environment-file: environment.yml
+          extra-specs: |
+            python=${{ matrix.python-version }}
+      # Build the website
+      - name: Build the site
+        run: |
+          make dirhtml
+      # Zip and Upload artifact
+      - name: Zip the site
+        run: |
+          set -x
+          set -e
+          if [ -f landing-page.zip ]; then
+           rm -rf landing-page.zip
+          fi
+          zip -r landing-page.zip ./_build/dirhtml
+      - name: Upload zipped site artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: landing-page-zip-${{github.event.number}}
+          path: ./landing-page.zip
+      # Push the book's HTML to github-pages
+      - name: Deploy GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/dirhtml
+          force_orphan: true
+          user_email: "wradlib-docs@wradlib.org"
+          user_name: "wradlib-docs-bot"
+          commit_message: ${{ github.event.head_commit.message }}
+          cname: wradlib.org

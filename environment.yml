@@ -1,0 +1,23 @@
+name: wradlib-dev
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.9
+  - pip
+  - ablog
+  - colorspacious
+  - myst-parser
+  - pip
+  - pydata-sphinx-theme>=0.4.3
+  - python-graphviz
+  - sphinx
+  - sphinx-autobuild
+  - sphinx-comments
+  - sphinx-panels
+  - sphinxcontrib-bibtex<2.0.0
+  - sphinxext-rediraffe
+  - sphinx-design
+  - sphinx-copybutton
+  - pip:
+      - sphinxext-opengraph
